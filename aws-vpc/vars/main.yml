@@ -1,0 +1,28 @@
+---
+#vars/main.yml
+ 
+# never your AWS credentials as a variable 
+# instead use ansible vault
+aws_access_key: ""
+aws_secret_key: ""
+region: "us-east-1"
+ 
+# VPC
+vpc_cidr: 10.10.0.0/24
+vpc_name: "Ansible VPC"
+ 
+# Subnet
+subnet_name: "Ansible Subnet"
+subnet_cidr: 10.10.0.0/26
+ 
+# Internet Gateway Name
+igw_name: "Traffic IGW"
+ 
+securitygroup_name: "Ansible Security Group"
+ 
+ec2_tag: "WebServer"
+ 
+#The local path to which we would save our EC2 Private Key
+ec2_key_directory: "/home/ansible/roles/aws-vpc/"
+keypair_name: "ec2_key_pair"
+
