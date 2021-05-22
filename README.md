@@ -11,8 +11,8 @@ The AWS VPC created will include the following components
 6. ec2 instance (ec2)
 
 Prequisites:
-IAM User with the required permission
-Boto installed (Ansible uses the Boto Python library to handle AWS management)
+* IAM User with the required permission
+* Boto installed (Ansible uses the Boto Python library to handle AWS management)
 
 
 1. VPC:
