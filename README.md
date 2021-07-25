@@ -32,3 +32,5 @@ Create an EC2 Key Pair and an EC2 instance.
 * if you already have an EC2 key pair, skip the EC2 key pair and update the key_name with the name of the key pair
 * exact_count is important! It determines the number of instances is created
 * Image ID can be found on AWS Marketplace
+
+***End of Doc***
